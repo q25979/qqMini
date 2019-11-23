@@ -1,0 +1,40 @@
+.graphic-list {
+  background: white;
+}
+
+.graphic-list-item {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 20rpx;
+  height: 160rpx;
+}
+
+.graphic-list-item:last-child {
+  border-bottom: none;
+  margin-bottom: 20rpx;
+}
+
+.graphic-list-item .l {
+  margin-right: 15rpx;
+}
+
+.graphic-list-item .r {
+  font-size: 30rpx;
+  color: #666;
+  max-width: 535rpx;
+  position: relative;
+  height: 100%;
+}
+
+.graphic-list-item .r .time {
+  color: #888;
+  font-size: 24rpx;
+  position: absolute;
+  bottom: 0;
+  right: 0; 
+}
+
+.graphic-list-item .l image {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 10rpx;
+}
